@@ -38,7 +38,7 @@ body{
 .card__first-section__image{
     width: 100%;
 }
-.card__second-section__product-type{
+h1{
     text-transform: uppercase;
     color: var(--Dark-grayish-blue);
     font-size: 0.8em;
@@ -52,7 +52,7 @@ body{
     color: var(--Very-dark-blue);
     line-height: 34px;
 }
-.card__second-section__description{
+section > h3{
     margin: 0 24px 47px 24px;
     color: var(--Dark-grayish-blue);
     font-size: 0.95em;
