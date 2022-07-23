@@ -53,7 +53,7 @@ body{
     line-height: 34px;
 }
 .card__second-section__description{
-    margin: 0 24px 44px 24px;
+    margin: 0 24px 47px 24px;
     color: var(--Dark-grayish-blue);
     font-size: 0.95em;
     line-height: 22px;
@@ -63,7 +63,8 @@ body{
     gap: 16px;
     /* border: 1px solid red; */
     align-items: center;
-    margin: 0 24px 16px 24px;
+    margin: 41px 24px 16px 24px
+  
 }
 .card__second-section__price__discount{
     font-family: 'Fraunces', serif;
@@ -110,7 +111,7 @@ body{
 
 @media (min-width: 376px){
     .card{
-        width: 600px;
+        width: 618px;
         height: 450px;
         display: flex;
         margin: 175px auto 75px;
@@ -122,19 +123,19 @@ body{
         content: url(./images/image-product-desktop.jpg);
     }
     .card__second-section{
-        width: 300px;
+        width: 467px;
     }
     .card__second-section__product-type{
-        margin: 32px 24px 16px 24px;
+        margin: 32px 24px 3px 24px;
     }
     .card__second-section__description{
         line-height: 24px;
-        margin-bottom: 24px;
+        margin-bottom:  5px;
     }
     .card__second-section__price{
         margin-bottom: 26px;
     }
     .card__second-section__btn{
-        width: 240px;
+        width: 219px;
     }
 }
