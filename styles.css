@@ -25,6 +25,7 @@ body{
     background-color: var(--Cream);
 }
 
+
 .card{
     /* border: 1px solid red; */
     width: 344px;
@@ -40,7 +41,7 @@ body{
 .card__second-section__product-type{
     text-transform: uppercase;
     color: var(--Dark-grayish-blue);
-    font: 1em;
+    font-size: 0.8em;
     letter-spacing: 3px; /*espaciado entre textos*/
     margin: 18px 24px 8px 24px;
 }
@@ -107,7 +108,7 @@ body{
 
 /* -----------------------------------------------------------Desktop--------------------------------------------------- */
 
-@media (min-width: 620px){
+@media (min-width: 376px){
     .card{
         width: 600px;
         height: 450px;
